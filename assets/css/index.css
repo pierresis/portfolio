@@ -33,12 +33,15 @@ html, body {
 /** NAV **/
 .navbar {
     background: #353b48;
+    height: 80px;
+    border-top: 5px solid #fbc531;
 }
 .navbar-item {
     color: #FFF;
 }
 a.navbar-item:hover {
-    background: #fbc531;
+    background: none;
+    border-bottom: 0.4rem solid #fbc531;
     color: #FFF;
 }
 .navbar-burger {
@@ -62,6 +65,9 @@ section.about {
     font-family: 'Do Hyeon', Lato, sans-serif;
     font-size: 3rem;
 }
+.title-hover {
+    
+}
 .subtitle {
     font-family: 'Do Hyeon', Lato, sans-serif;
     font-size: 1.5rem;
@@ -84,8 +90,8 @@ section.about {
     animation-duration: 2s; 
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-}
-@keyframes rotate {
+} */
+/* @keyframes rotate {
     from {transform: rotate(0deg);}
     to {transform: rotate(360deg);}
 } */
